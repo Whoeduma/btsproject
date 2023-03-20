@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: 'Inter', sans-serif;
+  color: #f9f9f9;
+}
+
+body {
+  font-family: "Inter", monospace;
+  text-align: center;
+  background-image: linear-gradient(#37306B, #66347F);
+  background-color: #000000;
+  background-position: center top;
+  height: 120vh;
+}
+
+.botao-player {
+  background-color: #ffffff00;
+  border: none;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 50px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 155px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  transition: 200ms ease-in-out;
+  object-fit: cover;
+  width: 18vh;
+  height: 18vh;
+  border-radius: 15vh;
+  margin: 20px 10px;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 1vh;
+  box-shadow: inset 0.25em 0.25em 3em rgba(0, 0, 0, 0.25), 0 0 3em #1c1c1c;
+  transition: 0.5s;
+  filter: none;
+}
